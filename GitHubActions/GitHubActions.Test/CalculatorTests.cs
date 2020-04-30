@@ -27,7 +27,7 @@ namespace GitHubActions.Test
       int actualValue;
 
       // Act
-      actualValue = Calculator.Add(0, 0);
+      actualValue = Calculator.Add(0, 1);
 
       // Assert
       Assert.Equal(0, actualValue);
